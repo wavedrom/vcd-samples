@@ -19,6 +19,8 @@ https://drom.io/vcd//?gist=drom/3b5f2ba5e2f60a91f9a8e765727858fe/raw/f79178d9e57
 
 :construction: Does not work Yet :construction:
 
+`Cross-Origin Request Blocked`
+
 `https://drom.io/vcd//?gitlab=<user>/<repo>/<brunch>/<filename>.vcd`
 
 https://drom.io/vcd//?gitlab=drom/vcd-samples/raw/main/swerv1.vcd
