@@ -1,7 +1,4 @@
-# vcd-samples
-sample VCD files
-
-view samles:
+View VCD file in the browser
 
 ## GitHub
 
