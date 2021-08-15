@@ -24,3 +24,8 @@ https://drom.io/vcd//?gist=drom/3b5f2ba5e2f60a91f9a8e765727858fe/raw/f79178d9e57
 `https://drom.io/vcd//?gitlab=<user>/<repo>/<brunch>/<filename>.vcd`
 
 https://drom.io/vcd//?gitlab=drom/vcd-samples/raw/main/swerv1.vcd
+
+## Snippets
+
+https://gitlab.com/-/snippets/2162111/raw/main/test1.vcd
+
