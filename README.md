@@ -36,7 +36,9 @@ https://drom.io/vcd//?gitlab=drom/vcd-samples/raw/main/swerv1.vcd
 https://gitlab.com/-/snippets/2162111/raw/main/test1.vcd
 
 
-## WaveQL fetch support
+# WaveQL fetch support
+
+`https://drom.io/vcd//?<host>=<path>.vcd&<host>=<path>.waveql`
 
 https://drom.io/vcd//?github=wavedrom/vcd-samples/trunk/swerv1.vcd&gist=drom/a641b8321d3d4b6d07e1a3bde302bb34/raw/3246a0ccf470d0c20835d009be53c6acbb23403e/swerv_ifu_axi.waveql
 
