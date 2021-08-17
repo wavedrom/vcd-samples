@@ -73,4 +73,5 @@ https://drom.io/vcd//?github=dpretet/vcd/master/test4.vcd&github=wavedrom/vcd-sa
 * VCS
 * ModelSim, QuestSim
 * NC-Verilog
+* SystemC
 
