@@ -64,11 +64,11 @@ https://drom.io/vcd//?github=dpretet/vcd/master/test4.vcd&github=wavedrom/vcd-sa
 
 # Simulators
 
-GHDL: issue https://github.com/ghdl/ghdl/issues/1759
-Treadle: https://github.com/chipsalliance/treadle
-Verilator
-Icarus Verilog
-VCS
-ModelSim, QuestSim
-NC-Verilog
+* GHDL: issue https://github.com/ghdl/ghdl/issues/1759
+* Treadle: https://github.com/chipsalliance/treadle
+* Verilator
+* Icarus Verilog
+* VCS
+* ModelSim, QuestSim
+* NC-Verilog
 
