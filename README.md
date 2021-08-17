@@ -24,6 +24,7 @@ https://drom.io/vcd//?github=sh619/Songyu_Huang-Chisel/main/MU0_final_version/si
 
 https://drom.io/vcd//?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vcd - Altera Quartus
 
+https://drom.io/vcd//?github=jroslindo/Mips-Systemc/main/REGISTRADORES_32_bits/wave_registradores.vcd - SystemC
 ### Gist
 
 `https://drom.io/vcd//?gist=<user>/<hash>/raw/<hash>/<filename>.vcd`
