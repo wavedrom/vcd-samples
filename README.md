@@ -22,6 +22,8 @@ https://drom.io/vcd//?github=Mohammad-Heydariii/Digital-Systems-Lab-Course/main/
 
 https://drom.io/vcd//?github=sh619/Songyu_Huang-Chisel/main/MU0_final_version/simulation/qsim/CPU_Design.msim.vcd - ModelSim 🚧 Too long 🚧
 
+https://drom.io/vcd//?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vcd - Altera Quartus
+
 ### Gist
 
 `https://drom.io/vcd//?gist=<user>/<hash>/raw/<hash>/<filename>.vcd`
