@@ -10,6 +10,7 @@ https://drom.io/vcd//?github=wavedrom/vcd-samples/trunk/swerv1.vcd
 
 https://drom.io/vcd//?github=ombhilare999/riscv-core/master/src/rv32_soc_TB.vcd
 
+https://drom.io/vcd//?github=yne/vcd/master/plasma.vcd - 🚧
 
 ### Gist
 
