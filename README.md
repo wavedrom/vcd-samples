@@ -10,21 +10,21 @@ https://drom.io/vcd//?github=wavedrom/vcd-samples/trunk/swerv1.vcd (Verilator)
 
 https://drom.io/vcd//?github=ombhilare999/riscv-core/master/src/rv32_soc_TB.vcd (Icarus)
 
-https://drom.io/vcd//?github=yne/vcd/master/plasma.vcd - 🚧 GHDL 🚧
+https://drom.io/vcd//?github=yne/vcd/master/plasma.vcd - 🚧 (GHDL) 🚧
 
-https://drom.io/vcd//?github=yne/vcd/master/sample.vcd - 🚧 GHDL 🚧
+https://drom.io/vcd//?github=yne/vcd/master/sample.vcd - 🚧 (GHDL) 🚧
 
-https://drom.io/vcd//?github=sathyapriyanka/APB_UVC_UVM/5401170f6c74453c83f24df06ce9228c198f6d20/Apb_slave_uvm_new.vcd - VCS
+https://drom.io/vcd//?github=sathyapriyanka/APB_UVC_UVM/5401170f6c74453c83f24df06ce9228c198f6d20/Apb_slave_uvm_new.vcd (VCS)
 
-https://drom.io/vcd//?github=mr-gaurav/Sequence-Counter/main/test.vcd - QuestaSim
+https://drom.io/vcd//?github=mr-gaurav/Sequence-Counter/main/test.vcd - (QuestaSim)
 
-https://drom.io/vcd//?github=Mohammad-Heydariii/Digital-Systems-Lab-Course/main/Lab_project4/modelsim_files/clkdiv2n_tb.vcd - ModelSim
+https://drom.io/vcd//?github=Mohammad-Heydariii/Digital-Systems-Lab-Course/main/Lab_project4/modelsim_files/clkdiv2n_tb.vcd (ModelSim)
 
-https://drom.io/vcd//?github=sh619/Songyu_Huang-Chisel/main/MU0_final_version/simulation/qsim/CPU_Design.msim.vcd - ModelSim
+https://drom.io/vcd//?github=sh619/Songyu_Huang-Chisel/main/MU0_final_version/simulation/qsim/CPU_Design.msim.vcd (ModelSim)
 
-https://drom.io/vcd//?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vcd - Altera Quartus
+https://drom.io/vcd//?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vcd (Altera Quartus)
 
-https://drom.io/vcd//?github=jroslindo/Mips-Systemc/main/REGISTRADORES_32_bits/wave_registradores.vcd - SystemC
+https://drom.io/vcd//?github=jroslindo/Mips-Systemc/main/REGISTRADORES_32_bits/wave_registradores.vcd (SystemC)
 
 ### Gist
 
