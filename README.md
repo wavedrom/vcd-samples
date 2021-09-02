@@ -13,6 +13,7 @@ View VCD file in the browser
 https://drom.io/vcd//?github=wavedrom/vcd-samples/trunk/swerv1.vcd
 
 #### GHDL
+* https://drom.io/vcd//?github=AdoobII/idea_21s/main/vhdl/idea.vcd
 * https://drom.io/vcd//?github=yne/vcd/master/plasma.vcd 🚧
 * https://drom.io/vcd//?github=yne/vcd/master/sample.vcd 🚧
 
