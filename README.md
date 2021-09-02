@@ -26,6 +26,8 @@ https://drom.io/vcd//?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vc
 
 https://drom.io/vcd//?github=jroslindo/Mips-Systemc/main/REGISTRADORES_32_bits/wave_registradores.vcd (SystemC)
 
+https://drom.io/vcd//?github=hwiiiii/RISCV64-Simple-CPU/main/sim/cpu.vcd (Xcelium (xmsim))
+
 ### Gist
 
 `https://drom.io/vcd//?gist=<user>/<hash>/raw/<hash>/<filename>.vcd`
