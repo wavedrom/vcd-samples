@@ -28,7 +28,7 @@ https://drom.io/vcd//?github=jroslindo/Mips-Systemc/main/REGISTRADORES_32_bits/w
 
 https://drom.io/vcd//?github=hwiiiii/RISCV64-Simple-CPU/main/sim/cpu.vcd (Xcelium (xmsim))
 
-https://drom.io/vcd//?github=chipsalliance/treadle/master/src/test/resources/RealGCD2.vcd (treadle)
+https://drom.io/vcd//?github=chipsalliance/treadle/master/src/test/resources/GCD.vcd (treadle)
 
 ### Gist
 
