@@ -4,31 +4,42 @@ View VCD file in the browser
 
 `https://drom.io/vcd//?github=<user>/<repo>/<brunch>/<filename>.vcd`
 
-https://drom.io/vcd//?github=dpretet/vcd/master/test1.vcd (Icarus)
+#### Icarus
+* https://drom.io/vcd//?github=dpretet/vcd/master/test1.vcd
+* https://drom.io/vcd//?github=ombhilare999/riscv-core/master/src/rv32_soc_TB.vcd
 
-https://drom.io/vcd//?github=wavedrom/vcd-samples/trunk/swerv1.vcd (Verilator)
+#### Verilator
+https://drom.io/vcd//?github=wavedrom/vcd-samples/trunk/swerv1.vcd
 
-https://drom.io/vcd//?github=ombhilare999/riscv-core/master/src/rv32_soc_TB.vcd (Icarus)
+#### GHDL
+* https://drom.io/vcd//?github=yne/vcd/master/plasma.vcd 🚧
+* https://drom.io/vcd//?github=yne/vcd/master/sample.vcd 🚧
 
-https://drom.io/vcd//?github=yne/vcd/master/plasma.vcd - 🚧 (GHDL) 🚧
+#### VCS
+* https://drom.io/vcd//?github=sathyapriyanka/APB_UVC_UVM/5401170f6c74453c83f24df06ce9228c198f6d20/Apb_slave_uvm_new.vcd
+* https://drom.io/vcd//?github=Akashay-Singla/RISC-V/main/Pipeline/datapath_log.vcd 🚧 (tgcd === 0)
 
-https://drom.io/vcd//?github=yne/vcd/master/sample.vcd - 🚧 (GHDL) 🚧
+#### QuestaSim
+https://drom.io/vcd//?github=mr-gaurav/Sequence-Counter/main/test.vcd
 
-https://drom.io/vcd//?github=sathyapriyanka/APB_UVC_UVM/5401170f6c74453c83f24df06ce9228c198f6d20/Apb_slave_uvm_new.vcd (VCS)
+#### ModelSim
+* https://drom.io/vcd//?github=Mohammad-Heydariii/Digital-Systems-Lab-Course/main/Lab_project4/modelsim_files/clkdiv2n_tb.vcd
+* https://drom.io/vcd//?github=sh619/Songyu_Huang-Chisel/main/MU0_final_version/simulation/qsim/CPU_Design.msim.vcd
 
-https://drom.io/vcd//?github=mr-gaurav/Sequence-Counter/main/test.vcd - (QuestaSim)
+#### Altera Quartus
+https://drom.io/vcd//?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vcd 
 
-https://drom.io/vcd//?github=Mohammad-Heydariii/Digital-Systems-Lab-Course/main/Lab_project4/modelsim_files/clkdiv2n_tb.vcd (ModelSim)
+#### SystemC
+https://drom.io/vcd//?github=jroslindo/Mips-Systemc/main/REGISTRADORES_32_bits/wave_registradores.vcd 
 
-https://drom.io/vcd//?github=sh619/Songyu_Huang-Chisel/main/MU0_final_version/simulation/qsim/CPU_Design.msim.vcd (ModelSim)
+#### Xcelium (xmsim)
+https://drom.io/vcd//?github=hwiiiii/RISCV64-Simple-CPU/main/sim/cpu.vcd 
 
-https://drom.io/vcd//?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vcd (Altera Quartus)
+#### treadle
+https://drom.io/vcd//?github=chipsalliance/treadle/master/src/test/resources/GCD.vcd
 
-https://drom.io/vcd//?github=jroslindo/Mips-Systemc/main/REGISTRADORES_32_bits/wave_registradores.vcd (SystemC)
-
-https://drom.io/vcd//?github=hwiiiii/RISCV64-Simple-CPU/main/sim/cpu.vcd (Xcelium (xmsim))
-
-https://drom.io/vcd//?github=chipsalliance/treadle/master/src/test/resources/GCD.vcd (treadle)
+#### Aldec
+https://drom.io/vcd//?github=SVeilleux9/FPGA-GPIO-Extender/main/Firmware/aldec/SPI_Write/SPI_Write.vcd
 
 ### TODO 🚧
 
@@ -36,9 +47,6 @@ https://drom.io/vcd//?github=chipsalliance/treadle/master/src/test/resources/GCD
 * https://drom.io/vcd//?github=mukul54/qrs-peak-fpga/master/utkarsh/utkarsh.sim/sim_1/behav/xsim/test.vcd 🚧
 * https://drom.io/vcd//?github=DanieleParravicini/regex_coprocessor/master/scripts/sim/test2x2_regex22_string1.vcd 🚧
 * pabloec1729/Hashes-generator/master/RTL/velocidad/test.vcd 🚧
-
-#### VCS (tgcd === 0)
-* https://drom.io/vcd//?github=Akashay-Singla/RISC-V/main/Pipeline/datapath_log.vcd 🚧
 
 ### Gist
 
