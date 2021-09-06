@@ -53,7 +53,7 @@ https://drom.io/vcd//?github=amiteee78/RTL_design/master/ffdiv_32bit/ffdiv_32bit
 #### xilinx_isim
 * https://drom.io/vcd//?github=mukul54/qrs-peak-fpga/master/utkarsh/utkarsh.sim/sim_1/behav/xsim/test.vcd 🚧
 * https://drom.io/vcd//?github=DanieleParravicini/regex_coprocessor/master/scripts/sim/test2x2_regex22_string1.vcd
-* https://drom.io/vcd//?github=pabloec1729/Hashes-generator/master/RTL/velocidad/test.vcd 🚧
+* https://drom.io/vcd//?github=pabloec1729/Hashes-generator/master/RTL/velocidad/test.vcd
 
 ### Gist
 
