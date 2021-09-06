@@ -7,7 +7,7 @@ View VCD file in the browser
 #### Icarus
 * https://drom.io/vcd//?github=dpretet/vcd/master/test1.vcd
 * https://drom.io/vcd//?github=ombhilare999/riscv-core/master/src/rv32_soc_TB.vcd
-* https://drom.io/vcd//?github=b06902044/computer_architecture/main/CPU.vcd 🚧
+* https://drom.io/vcd//?github=b06902044/computer_architecture/main/CPU.vcd
 
 #### Verilator
 https://drom.io/vcd//?github=wavedrom/vcd-samples/trunk/swerv1.vcd
@@ -19,7 +19,7 @@ https://drom.io/vcd//?github=wavedrom/vcd-samples/trunk/swerv1.vcd
 
 #### VCS
 * https://drom.io/vcd//?github=sathyapriyanka/APB_UVC_UVM/5401170f6c74453c83f24df06ce9228c198f6d20/Apb_slave_uvm_new.vcd
-* https://drom.io/vcd//?github=Akashay-Singla/RISC-V/main/Pipeline/datapath_log.vcd 🚧 (tgcd === 0)
+* https://drom.io/vcd//?github=Akashay-Singla/RISC-V/main/Pipeline/datapath_log.vcd
 
 #### QuestaSim
 https://drom.io/vcd//?github=mr-gaurav/Sequence-Counter/main/test.vcd
@@ -50,12 +50,10 @@ https://drom.io/vcd//?github=SVeilleux9/FPGA-GPIO-Extender/main/Firmware/aldec/S
 #### ncsim
 https://drom.io/vcd//?github=amiteee78/RTL_design/master/ffdiv_32bit/ffdiv_32bit_prop_binom/run_cad/ffdiv_32bit_tb.vcd
 
-### TODO 🚧
-
-#### 🚧 (xilinx_isim) 🚧 (tgcd === 0)
+#### xilinx_isim
 * https://drom.io/vcd//?github=mukul54/qrs-peak-fpga/master/utkarsh/utkarsh.sim/sim_1/behav/xsim/test.vcd 🚧
-* https://drom.io/vcd//?github=DanieleParravicini/regex_coprocessor/master/scripts/sim/test2x2_regex22_string1.vcd 🚧
-* pabloec1729/Hashes-generator/master/RTL/velocidad/test.vcd 🚧
+* https://drom.io/vcd//?github=DanieleParravicini/regex_coprocessor/master/scripts/sim/test2x2_regex22_string1.vcd
+* https://drom.io/vcd//?github=pabloec1729/Hashes-generator/master/RTL/velocidad/test.vcd 🚧
 
 ### Gist
 
