@@ -46,15 +46,18 @@ https://drom.io/vcd/?github=SVeilleux9/FPGA-GPIO-Extender/main/Firmware/aldec/SP
 
 #### MyHDL
 * https://drom.io/vcd/?github=aibtw/myHdl_Projects/main/SimpleMemory/Simple_Memory.vcd
-* https://drom.io/vcd/?github=DarthSkipper/myHDL_Sigmoid/master/out/testbench/sigmoid_tb.vcd 🚧
+* https://drom.io/vcd/?github=DarthSkipper/myHDL_Sigmoid/master/out/testbench/sigmoid_tb.vcd ⛔
 
 #### ncsim
 https://drom.io/vcd/?github=amiteee78/RTL_design/master/ffdiv_32bit/ffdiv_32bit_prop_binom/run_cad/ffdiv_32bit_tb.vcd
 
 #### xilinx_isim
-* https://drom.io/vcd/?github=mukul54/qrs-peak-fpga/master/utkarsh/utkarsh.sim/sim_1/behav/xsim/test.vcd 🚧
+* https://drom.io/vcd/?github=mukul54/qrs-peak-fpga/master/utkarsh/utkarsh.sim/sim_1/behav/xsim/test.vcd ⛔
 * https://drom.io/vcd/?github=DanieleParravicini/regex_coprocessor/master/scripts/sim/test2x2_regex22_string1.vcd
 * https://drom.io/vcd/?github=pabloec1729/Hashes-generator/master/RTL/velocidad/test.vcd
+
+### Vivado
+* https://drom.io/vcd/?github=BradMcDanel/multiplication-free-dnn/master/verilog/iladata.vcd ⛔
 
 ### Gist
 
