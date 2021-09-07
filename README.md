@@ -25,7 +25,8 @@ View VCD file in the browser
 * https://drom.io/vcd/?github=Akashay-Singla/RISC-V/main/Pipeline/datapath_log.vcd
 
 #### QuestaSim
-https://drom.io/vcd/?github=mr-gaurav/Sequence-Counter/main/test.vcd
+* https://drom.io/vcd/?github=mr-gaurav/Sequence-Counter/main/test.vcd
+* https://drom.io/vcd/?github=SparshAgarwal/Computer-Architecture/master/hw3/hw3_1/dump.vcd
 
 #### ModelSim
 * https://drom.io/vcd/?github=Mohammad-Heydariii/Digital-Systems-Lab-Course/main/Lab_project4/modelsim_files/clkdiv2n_tb.vcd
