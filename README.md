@@ -10,7 +10,8 @@ View VCD file in the browser
 * https://drom.io/vcd/?github=b06902044/computer_architecture/main/CPU.vcd
 
 #### Verilator
-https://drom.io/vcd/?github=wavedrom/vcd-samples/trunk/swerv1.vcd
+* https://drom.io/vcd/?github=wavedrom/vcd-samples/trunk/swerv1.vcd
+* https://drom.io/vcd/?github=bigBrain1901/nPOWER-ISA-5-STAGE-PIPELINED-CPU/master/post_compile_files/vlt_dump.vcd
 
 #### GHDL
 * https://drom.io/vcd/?github=AdoobII/idea_21s/main/vhdl/idea.vcd
