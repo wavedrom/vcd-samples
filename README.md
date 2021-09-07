@@ -14,8 +14,8 @@ https://drom.io/vcd//?github=wavedrom/vcd-samples/trunk/swerv1.vcd
 
 #### GHDL
 * https://drom.io/vcd//?github=AdoobII/idea_21s/main/vhdl/idea.vcd
-* https://drom.io/vcd//?github=yne/vcd/master/plasma.vcd 🚧
-* https://drom.io/vcd//?github=yne/vcd/master/sample.vcd 🚧
+* https://drom.io/vcd//?github=yne/vcd/master/plasma.vcd
+* https://drom.io/vcd//?github=yne/vcd/master/sample.vcd
 
 #### VCS
 * https://drom.io/vcd//?github=sathyapriyanka/APB_UVC_UVM/5401170f6c74453c83f24df06ce9228c198f6d20/Apb_slave_uvm_new.vcd
