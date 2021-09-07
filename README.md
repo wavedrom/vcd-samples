@@ -93,17 +93,3 @@ Second query source is an url of signal list file.
 https://drom.io/vcd/?github=wavedrom/vcd-samples/trunk/swerv1.vcd&gist=drom/a641b8321d3d4b6d07e1a3bde302bb34/raw/3246a0ccf470d0c20835d009be53c6acbb23403e/swerv_ifu_axi.waveql
 
 https://drom.io/vcd/?github=dpretet/vcd/master/test4.vcd&github=wavedrom/vcd-samples/trunk/wave1.waveql
-
-
-# Simulators
-
-* GHDL: issue https://github.com/ghdl/ghdl/issues/1759
-* Treadle: https://github.com/chipsalliance/treadle
-* Verilator
-* Icarus Verilog
-* VCS
-* ModelSim, QuestSim
-* NC-Verilog
-* SystemC
-* Aldec
-* Altera Quartus
