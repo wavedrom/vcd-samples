@@ -39,7 +39,8 @@ https://drom.io/vcd/?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vcd
 https://drom.io/vcd/?github=jroslindo/Mips-Systemc/main/REGISTRADORES_32_bits/wave_registradores.vcd 
 
 #### Xcelium (xmsim)
-https://drom.io/vcd/?github=hwiiiii/RISCV64-Simple-CPU/main/sim/cpu.vcd 
+* https://drom.io/vcd/?github=hwiiiii/RISCV64-Simple-CPU/main/sim/cpu.vcd
+* https://drom.io/vcd/?github=avidan-efody/wave_rerunner/main/test/data/integrated.vcd ⛔
 
 #### treadle
 https://drom.io/vcd/?github=chipsalliance/treadle/master/src/test/resources/GCD.vcd
