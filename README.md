@@ -65,6 +65,9 @@ https://drom.io/vcd/?github=amiteee78/RTL_design/master/ffdiv_32bit/ffdiv_32bit_
 * https://drom.io/vcd//?github=saharmalmir/Eth2Ser/master/UART2ETH.runs/impl_1/iladata.vcd
 * https://drom.io/vcd/?github=BradMcDanel/multiplication-free-dnn/master/verilog/iladata.vcd ⛔
 
+### GTKWave Analyzer
+* https://drom.io/vcd/?github=Asfagus/Network-Switch/main/perm_current.vcd (Late start. t0 > 0)
+
 ### Gist
 
 `https://drom.io/vcd/?gist=<user>/<hash>/raw/<hash>/<filename>.vcd`
