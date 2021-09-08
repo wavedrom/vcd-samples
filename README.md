@@ -47,7 +47,10 @@ https://drom.io/vcd/?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vcd
 https://drom.io/vcd/?github=chipsalliance/treadle/master/src/test/resources/GCD.vcd
 
 #### Aldec
-https://drom.io/vcd/?github=SVeilleux9/FPGA-GPIO-Extender/main/Firmware/aldec/SPI_Write/SPI_Write.vcd (tgcd: 31000)
+* https://drom.io/vcd/?github=SVeilleux9/FPGA-GPIO-Extender/main/Firmware/aldec/SPI_Write/SPI_Write.vcd (tgcd: 31000)
+
+#### Riviera-PRO
+* https://drom.io/vcd//?github=prathampathak/Tic-Tac-Tao/main/dump.vcd
 
 #### MyHDL
 * https://drom.io/vcd/?github=aibtw/myHdl_Projects/main/SimpleMemory/Simple_Memory.vcd
