@@ -36,7 +36,8 @@ View VCD file in the browser
 https://drom.io/vcd/?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vcd 
 
 #### SystemC
-https://drom.io/vcd/?github=jroslindo/Mips-Systemc/main/REGISTRADORES_32_bits/wave_registradores.vcd 
+* https://drom.io/vcd/?github=jroslindo/Mips-Systemc/main/REGISTRADORES_32_bits/wave_registradores.vcd
+* https://drom.io/vcd/?github=amrhas/PDRNoC/VCRouter/noctweak/Debug/wavform.vcd.vcd
 
 #### Xcelium (xmsim)
 * https://drom.io/vcd/?github=hwiiiii/RISCV64-Simple-CPU/main/sim/cpu.vcd
