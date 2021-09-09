@@ -24,6 +24,7 @@ View VCD file in the browser
 * https://drom.io/vcd/?github=sathyapriyanka/APB_UVC_UVM/5401170f6c74453c83f24df06ce9228c198f6d20/Apb_slave_uvm_new.vcd
 * https://drom.io/vcd/?github=Akashay-Singla/RISC-V/main/Pipeline/datapath_log.vcd
 * https://drom.io/vcd/?github=Akashay-Singla/RISC-V/main/2_way_Superscalar/datapath_log.vcd
+* https://drom.io/vcd/?github=ameyjain/8-bit-Microprocessor/master/8-bit%20microprocessor/processor.vcd
 
 #### QuestaSim
 * https://drom.io/vcd/?github=mr-gaurav/Sequence-Counter/main/test.vcd
