@@ -34,8 +34,8 @@ View VCD file in the browser
 * https://drom.io/vcd/?github=Mohammad-Heydariii/Digital-Systems-Lab-Course/main/Lab_project4/modelsim_files/clkdiv2n_tb.vcd
 * https://drom.io/vcd/?github=sh619/Songyu_Huang-Chisel/main/MU0_final_version/simulation/qsim/CPU_Design.msim.vcd
 
-#### Altera Quartus
-https://drom.io/vcd/?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vcd 
+#### QUARTUS_VCD_EXPORT
+* https://drom.io/vcd/?github=PedroTLemos/ProjetoInfraHard/master/mipsHardware.vcd 
 
 #### SystemC
 * https://drom.io/vcd/?github=jroslindo/Mips-Systemc/main/REGISTRADORES_32_bits/wave_registradores.vcd
