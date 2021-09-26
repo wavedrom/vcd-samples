@@ -18,7 +18,7 @@ View VCD file in the browser
 * https://drom.io/vcd/?github=yne/vcd/master/plasma.vcd
 * https://drom.io/vcd/?github=yne/vcd/master/sample.vcd
 * https://drom.io/vcd/?github=charlycop/VLSI-1/master/EXEC/ALU/alu.vcd
-* https://drom.io/vcd/?github=gaoqqt2n/CPU/master/SuperPipelineCPU/vcdfile/pcpu.vcd ⛔
+* https://drom.io/vcd/?github=gaoqqt2n/CPU/master/SuperPipelineCPU/vcdfile/pcpu.vcd
 
 #### VCS
 * https://drom.io/vcd/?github=sathyapriyanka/APB_UVC_UVM/5401170f6c74453c83f24df06ce9228c198f6d20/Apb_slave_uvm_new.vcd
@@ -63,13 +63,13 @@ https://drom.io/vcd/?github=chipsalliance/treadle/master/src/test/resources/GCD.
 https://drom.io/vcd/?github=amiteee78/RTL_design/master/ffdiv_32bit/ffdiv_32bit_prop_binom/run_cad/ffdiv_32bit_tb.vcd
 
 #### xilinx_isim
-* https://drom.io/vcd/?github=mukul54/qrs-peak-fpga/master/utkarsh/utkarsh.sim/sim_1/behav/xsim/test.vcd ⛔
+* https://drom.io/vcd/?github=mukul54/qrs-peak-fpga/master/utkarsh/utkarsh.sim/sim_1/behav/xsim/test.vcd
 * https://drom.io/vcd/?github=DanieleParravicini/regex_coprocessor/master/scripts/sim/test2x2_regex22_string1.vcd
 * https://drom.io/vcd/?github=pabloec1729/Hashes-generator/master/RTL/velocidad/test.vcd
 
 ### Vivado
 * https://drom.io/vcd//?github=saharmalmir/Eth2Ser/master/UART2ETH.runs/impl_1/iladata.vcd
-* https://drom.io/vcd/?github=BradMcDanel/multiplication-free-dnn/master/verilog/iladata.vcd ⛔
+* https://drom.io/vcd/?github=BradMcDanel/multiplication-free-dnn/master/verilog/iladata.vcd
 
 ### GTKWave Analyzer
 * https://drom.io/vcd/?github=Asfagus/Network-Switch/main/perm_current.vcd (Late start. t0 > 0)
