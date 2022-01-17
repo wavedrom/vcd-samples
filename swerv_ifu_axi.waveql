@@ -1,5 +1,6 @@
+TOP
 core_clk
-
+tb_top
 ifu_axi_arvalid
 ifu_axi_arready
 ifu_axi_araddr
