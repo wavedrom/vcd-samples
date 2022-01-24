@@ -112,3 +112,5 @@ Second query source is an url of signal list file.
 https://drom.io/vcd/?github=wavedrom/vcd-samples/trunk/swerv1.vcd&gist=drom/a641b8321d3d4b6d07e1a3bde302bb34/raw/03833b83748dd1ae17f151c9808d82d37a089711/swerv_ifu_axi.waveql
 
 https://drom.io/vcd/?github=dpretet/vcd/master/test4.vcd&github=wavedrom/vcd-samples/trunk/wave1.waveql
+
+https://drom.io/vcd/?github=wavedrom/vcd-samples/trunk/swerv1.vcd&github=wavedrom/vcd-samples/trunk/swerv_ifu_axi.waveql
