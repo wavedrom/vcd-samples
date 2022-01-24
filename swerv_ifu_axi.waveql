@@ -1,46 +1,48 @@
 TOP
-core_clk
+core_clk :clock
 tb_top
-ifu_axi_arvalid
-ifu_axi_arready
-ifu_axi_araddr
-ifu_axi_arlen
-ifu_axi_arsize
-ifu_axi_arburst
-ifu_axi_arid
-ifu_axi_arcache
-ifu_axi_arlock
-ifu_axi_arprot
-ifu_axi_arqos
-ifu_axi_arregion
+rst_l
 
-ifu_axi_rvalid
-ifu_axi_rready
-ifu_axi_rdata
-ifu_axi_rlast
-ifu_axi_rresp
-ifu_axi_rid
+lsu_axi_arvalid :valid
+lsu_axi_arready :ready
+lsu_axi_araddr
+lsu_axi_arburst
+lsu_axi_arcache
+lsu_axi_arid
+lsu_axi_arlen
+lsu_axi_arlock
+lsu_axi_arprot
+lsu_axi_arqos
+lsu_axi_arregion
+lsu_axi_arsize
 
-ifu_axi_awvalid
-ifu_axi_awready
-ifu_axi_awaddr
-ifu_axi_awlen
-ifu_axi_awsize
-ifu_axi_awburst
-ifu_axi_awid
-ifu_axi_awcache
-ifu_axi_awlock
-ifu_axi_awprot
-ifu_axi_awqos
-ifu_axi_awregion
+lsu_axi_rvalid :valid
+lsu_axi_rready :ready
+lsu_axi_rdata
+lsu_axi_rid
+lsu_axi_rlast
+lsu_axi_rresp
 
-ifu_axi_wvalid
-ifu_axi_wready
-ifu_axi_wdata
-ifu_axi_wstrb
-ifu_axi_wlast
+lsu_axi_awvalid :valid
+lsu_axi_awready :ready
+lsu_axi_awaddr
+lsu_axi_awburst
+lsu_axi_awcache
+lsu_axi_awid
+lsu_axi_awlen
+lsu_axi_awlock
+lsu_axi_awprot
+lsu_axi_awqos
+lsu_axi_awregion
+lsu_axi_awsize
 
-ifu_axi_bvalid
-ifu_axi_bready
-ifu_axi_bresp
-ifu_axi_bid
+lsu_axi_wvalid :valid
+lsu_axi_wready :ready
+lsu_axi_wdata
+lsu_axi_wlast
+lsu_axi_wstrb
+
+lsu_axi_bvalid :valid
+lsu_axi_bready
+lsu_axi_bid
+lsu_axi_bresp
