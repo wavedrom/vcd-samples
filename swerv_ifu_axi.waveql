@@ -15,6 +15,7 @@ lsu_axi_arprot
 lsu_axi_arqos
 lsu_axi_arregion
 lsu_axi_arsize
+{clock,valid,ready,h:12}
 
 lsu_axi_rvalid :valid
 lsu_axi_rready :ready
@@ -22,6 +23,7 @@ lsu_axi_rdata
 lsu_axi_rid
 lsu_axi_rlast
 lsu_axi_rresp
+{clock,valid,ready,h:6}
 
 lsu_axi_awvalid :valid
 lsu_axi_awready :ready
@@ -35,14 +37,18 @@ lsu_axi_awprot
 lsu_axi_awqos
 lsu_axi_awregion
 lsu_axi_awsize
+{clock,valid,ready,h:12}
 
 lsu_axi_wvalid :valid
 lsu_axi_wready :ready
 lsu_axi_wdata
 lsu_axi_wlast
 lsu_axi_wstrb
+{clock,valid,ready,h:5}
 
 lsu_axi_bvalid :valid
-lsu_axi_bready
+lsu_axi_bready :ready
 lsu_axi_bid
 lsu_axi_bresp
+{clock,valid,ready,h:4}
+
