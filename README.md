@@ -52,7 +52,7 @@ https://vc.drom.io/?github=chipsalliance/treadle/master/src/test/resources/GCD.v
 * https://vc.drom.io/?github=SVeilleux9/FPGA-GPIO-Extender/main/Firmware/aldec/SPI_Write/SPI_Write.vcd (tgcd: 31000)
 
 #### Riviera-PRO
-* https://vc.drom.io//?github=prathampathak/Tic-Tac-Tao/main/dump.vcd
+* https://vc.drom.io/?github=prathampathak/Tic-Tac-Tao/main/dump.vcd
 
 #### MyHDL
 * https://vc.drom.io/?github=aibtw/myHdl_Projects/main/SimpleMemory/Simple_Memory.vcd
@@ -68,7 +68,7 @@ https://vc.drom.io/?github=amiteee78/RTL_design/master/ffdiv_32bit/ffdiv_32bit_p
 * https://vc.drom.io/?github=pabloec1729/Hashes-generator/master/RTL/velocidad/test.vcd
 
 ### Vivado
-* https://vc.drom.io//?github=saharmalmir/Eth2Ser/master/UART2ETH.runs/impl_1/iladata.vcd
+* https://vc.drom.io/?github=saharmalmir/Eth2Ser/master/UART2ETH.runs/impl_1/iladata.vcd
 * https://vc.drom.io/?github=BradMcDanel/multiplication-free-dnn/master/verilog/iladata.vcd
 
 ### GTKWave Analyzer
@@ -84,9 +84,9 @@ https://vc.drom.io/?gist=carlosedp/00380f29bbd7aadc3523ffd162230d0e/raw/d732be78
 
 ## Bitbucket
 
-`https://vc.drom.io//?bitbucket=<user>/<repo>/raw/<hash>/<filename>.vcd`
+`https://vc.drom.io/?bitbucket=<user>/<repo>/raw/<hash>/<filename>.vcd`
 
-http://drom.io/vcd/?bitbucket=alex_drom/vcd-samples/raw/36cf049c82f70f82249682d20444903627b9536e/test1.vcd (Icarus)
+https://vc.drom.io/?bitbucket=alex_drom/vcd-samples/raw/36cf049c82f70f82249682d20444903627b9536e/test1.vcd (Icarus)
 
 ## GitLab
 
@@ -94,9 +94,9 @@ http://drom.io/vcd/?bitbucket=alex_drom/vcd-samples/raw/36cf049c82f70f82249682d2
 
 `Cross-Origin Request Blocked`
 
-`https://vc.drom.io//?gitlab=<user>/<repo>/<brunch>/<filename>.vcd`
+`https://vc.drom.io/?gitlab=<user>/<repo>/<brunch>/<filename>.vcd`
 
-https://vc.drom.io//?gitlab=drom/vcd-samples/raw/main/swerv1.vcd (Verilator)
+https://vc.drom.io/?gitlab=drom/vcd-samples/raw/main/swerv1.vcd (Verilator)
 
 ### Snippets
 
@@ -107,7 +107,7 @@ https://gitlab.com/-/snippets/2162111/raw/main/test1.vcd
 
 Second query source is an url of signal list file.
 
-`https://vc.drom.io//?<host>=<path>.vcd&<host>=<path>.waveql`
+`https://vc.drom.io/?<host>=<path>.vcd&<host>=<path>.waveql`
 
 https://vc.drom.io/?github=wavedrom/vcd-samples/trunk/swerv1.vcd&gist=drom/a641b8321d3d4b6d07e1a3bde302bb34/raw/03833b83748dd1ae17f151c9808d82d37a089711/swerv_ifu_axi.waveql
 
