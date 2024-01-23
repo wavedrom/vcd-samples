@@ -12,8 +12,11 @@ module tb;
   reg clk = 1;
   always #0.5 clk = !clk;
 
-  reg [31:0] seed = 42;
-  reg [7:0] value;
-  always #1 value = $random(seed);
+  wire [7:0] value;
+  counter u0 (value, clk, rstn);
+
+  reg [31:0] seed = 2;
+  reg [7:0] rnd;
+  always #1 rnd = $random(seed);
 
 endmodule

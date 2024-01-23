@@ -1,5 +1,7 @@
 tb
 clk
-rstn
-seed %d
-value
+u0
+out
+clk
+..
+seed
