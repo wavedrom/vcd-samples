@@ -1,4 +1,4 @@
-`timescale 10ns/10ns
+`timescale 10ns/1ns
 
 module tb;
   reg rstn = 0;
@@ -10,10 +10,10 @@ module tb;
   end
 
   reg clk = 1;
-  always #1 clk = !clk;
+  always #0.5 clk = !clk;
 
   reg [31:0] seed = 42;
   reg [7:0] value;
-  always #2 value = $random(seed);
+  always #1 value = $random(seed);
 
 endmodule
