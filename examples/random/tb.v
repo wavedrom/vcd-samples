@@ -13,7 +13,7 @@ module tb;
   always #0.5 clk = !clk;
 
   wire [7:0] value;
-  counter u0 (value, clk, rstn);
+  counter u0 (.out(value), .clk(clk), .rstn(rstn));
 
   reg [31:0] seed = 2;
   reg [7:0] rnd;
