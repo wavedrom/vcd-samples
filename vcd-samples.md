@@ -26,3 +26,9 @@
 ### Search
 
 https://github.com/search?q=%24timescale+%24scope+module+%24enddefinitions+%24end+path%3A*.vcd&type=code
+
+```
+gh search code --extension vcd --size 340000..500000
+```
+
+Github Search exclude files > 350KB
