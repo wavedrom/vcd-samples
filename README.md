@@ -8,6 +8,8 @@ View VCD file in the browser
 * https://vc.drom.io/?github=dpretet/vcd/master/test1.vcd
 * https://vc.drom.io/?github=ombhilare999/riscv-core/master/src/rv32_soc_TB.vcd
 * https://vc.drom.io/?github=b06902044/computer_architecture/main/CPU.vcd
+* https://vc.drom.io/?github=phoeniX-Digital-Design/phoeniX/refs/heads/main/phoeniX.vcd
+* https://vc.drom.io/?github=wanderingnail/AXI_DMA/refs/heads/master/build/DMAC.vcd
 
 #### Verilator
 * https://vc.drom.io/?github=wavedrom/vcd-samples/trunk/swerv1.vcd
