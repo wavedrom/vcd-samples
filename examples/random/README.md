@@ -1,7 +1,7 @@
 Random number generator
 
 ```bash
-iverilog -o sim tb.v && vvp sim
+iverilog -g2005-sv -o sim counter.v tb.sv && vvp sim +duration=1000000
 ```
 
 https://vc.drom.io/?github=wavedrom/vcd-samples/trunk/examples/random/random.vcd&github=wavedrom/vcd-samples/trunk/examples/random/random.waveql
