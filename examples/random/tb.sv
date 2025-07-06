@@ -3,13 +3,14 @@
 module tb;
   reg rstn = 0;
   integer duration = 10000;
-
+  reg [8*64:1] vcdname = "dump.vcd";
   initial begin
+    $value$plusargs("vcdname=%s", vcdname);
     $value$plusargs("duration=%d", duration);
-     $dumpfile("random.vcd");
-     $dumpvars(0, tb);
-     # 8 rstn = 1;
-     # duration $finish;
+    $dumpfile(vcdname);
+    $dumpvars(0, tb);
+    # 8 rstn = 1;
+    # duration $finish;
   end
 
   reg clk = 1;
