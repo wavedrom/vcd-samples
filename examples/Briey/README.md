@@ -2,9 +2,18 @@
 
 https://vc.drom.io/?github=wavedrom/vcd-samples/trunk/examples/Briey/dump1.vcd&github=wavedrom/vcd-samples/trunk/examples/Briey/dump.waveql&github=wavedrom/vcd-samples/trunk/examples/Briey/demo.lst
 
-### Pipeline Probes in Verilog
+3 files needed for Pipeline View:
+* `.vcd` - of simulation dump with pipeline probes
+* `.waveql` - Waveform Query (signal list) file with correct DIZ RegExp
+* `.lst` - Assembly listing from Object Dump
+
+### Inserting Pipeline Probes into Verilog
 
 https://github.com/wavedrom/vcd-samples/blob/trunk/examples/Briey/tb.sv#L26
+
+A pair of signals per pipeline stage:
+* `<STAGE>_pc` - PC of instruction executed by the stage
+* `<STAGE>_go` - valid bit when stage is active
 
 ```verilog
 // Pipeline Probes
@@ -19,9 +28,11 @@ wire mm_go = axi_core_cpu.memory_arbitration_isValid;
 wire wb_go = axi_core_cpu.writeBack_arbitration_isValid;
 ```
 
-### Dizassembly sections in WaveQL file
+### Dizassembly in WaveQL file
 
 https://github.com/wavedrom/vcd-samples/blob/trunk/examples/Briey/dump.waveql#L17
+
+WaveQL file need to include RegExp that will match `pc` / `go` signal pairs.
 
 ```
 (DIZ (?<id>\w\w)_((?<go>go)|(?<pc>pc))
