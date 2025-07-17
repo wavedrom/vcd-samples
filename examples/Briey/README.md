@@ -1,6 +1,6 @@
 ## Pipeline Viewer Demo
 
-Click The Link below to open demo in VCDrom Online >>>
+Click the link below to open demo in VCDrom Online >>>
 
 https://vc.drom.io/?github=wavedrom/vcd-samples/trunk/examples/Briey/dump1.vcd&github=wavedrom/vcd-samples/trunk/examples/Briey/dump.waveql&github=wavedrom/vcd-samples/trunk/examples/Briey/demo.lst
 
@@ -28,18 +28,6 @@ wire dc_go = axi_core_cpu.decode_arbitration_isValid;
 wire ex_go = axi_core_cpu.execute_arbitration_isValid;
 wire mm_go = axi_core_cpu.memory_arbitration_isValid;
 wire wb_go = axi_core_cpu.writeBack_arbitration_isValid;
-```
-
-### Dizassembly in WaveQL file
-
-https://github.com/wavedrom/vcd-samples/blob/trunk/examples/Briey/dump.waveql#L17
-
-WaveQL file need to include RegExp that will match `pc` / `go` signal pairs.
-
-```
-(DIZ (?<id>\w\w)_((?<go>go)|(?<pc>pc))
-
-)
 ```
 
 ### How to build and simulate
@@ -104,7 +92,7 @@ index 3aba0d6..b7458b9 100755
 
 @@ -79,9 +82,7 @@ clean:
         rm -f $(OBJDIR)/$(PROJ_NAME).map
-        rm -f $(OBJDIR)/$(PROJ_NAME).v
+        rm -f $(OBJDIR)/$(PROJ_name).v
         rm -f $(OBJDIR)/$(PROJ_NAME).asm
 +       rm -f $(OBJDIR)/$(PROJ_NAME).lst
         find $(OBJDIR) -type f -name '*.o' -print0 | xargs -0 -r rm
@@ -124,3 +112,31 @@ Command to run simulation:
 ```bash
 iverilog -g2005-sv -o sim Briey.v tb.sv && vvp sim +duration=1000 +vcdname=dump1.vcd
 ```
+
+## Understanding WaveQL file
+
+First we enter `tb` testbench level
+
+![](assets/scr1.png)
+
+Next we select `clock` signal at current hierarchical level and put `:clock` label on it.
+
+![](assets/scr2.png)
+
+Then we go two instances down into VexRiscv processor core `u0` `axi_core_cpu`
+
+![](assets/scr3.png)
+
+Next we call function `DIZ` with a regular expression `(?<id>\w\w)_((?<go>go)|(?<pc>pc))`
+This function matches `pc` / `go` signal pairs out of signals you have at this level.
+
+![](assets/scr4.png)
+
+Below you will see all pipeline stage bricks that was found in this time frame and associated listing lines. Names of pipeline bricks are UpperCase `id`s from your signal names. Colors picked randomly.
+
+![](assets/scr6.png)
+
+After several empty lines there will be a closing `)` parenthesis.
+Marking the space allocated to pipeline view.
+
+![](assets/scr7.png)
