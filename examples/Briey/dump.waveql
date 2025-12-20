@@ -1,19 +1,4 @@
 tb clock :clock
-u0 axi_core_cpu
-iBus_cmd_payload_address
-iBus_cmd_valid :valid
-iBus_cmd_ready :ready {clock,valid,ready,up:3}
-iBus_rsp_payload_data
-iBus_rsp_valid :valid {clock,valid,up:2}
-
-dBus_cmd_payload_address
-dBus_cmd_payload_data
-dBus_cmd_payload_wr
-dBus_cmd_valid :valid
-dBus_cmd_ready :ready {clock,valid,ready,up:5}
-dBus_rsp_payload_data
-dBus_rsp_valid :valid {clock,valid:up:2}
-.. ..
 (DIZ (?<id>\w\w)_((?<go>go)|(?<pc>pc))
 
 
@@ -48,9 +33,35 @@ dBus_rsp_valid :valid {clock,valid:up:2}
 
 
 
-
-
-
-
 )
+
+u0 axi_core_cpu
+
+/iBus_cmd_((?<valid>valid)|(?<ready>ready)|)/
+
+
+
+
+
+/iBus_rsp_((?<valid>valid)|)/
+
+
+
+
+/dBus_cmd_((?<valid>valid)|(?<ready>ready)|)/
+
+
+
+
+
+
+
+
+
+
+/dBus_rsp_((?<valid>valid)|)/
+
+
+
+
 
