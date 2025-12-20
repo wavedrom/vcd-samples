@@ -17,8 +17,6 @@ View VCD file in the browser
 
 #### GHDL
 * https://vcdrom.pages.dev/?github=AdoobII/idea_21s/main/vhdl/idea.vcd
-* https://vcdrom.pages.dev/?github=yne/vcd/master/plasma.vcd
-* https://vcdrom.pages.dev/?github=yne/vcd/master/sample.vcd
 * https://vcdrom.pages.dev/?github=charlycop/VLSI-1/master/EXEC/ALU/alu.vcd
 * https://vcdrom.pages.dev/?github=gaoqqt2n/CPU/master/SuperPipelineCPU/vcdfile/pcpu.vcd
 
@@ -33,7 +31,6 @@ View VCD file in the browser
 * https://vcdrom.pages.dev/?github=SparshAgarwal/Computer-Architecture/master/hw3/hw3_1/dump.vcd
 
 #### ModelSim
-* https://vcdrom.pages.dev/?github=Mohammad-Heydariii/Digital-Systems-Lab-Course/main/Lab_project4/modelsim_files/clkdiv2n_tb.vcd
 * https://vcdrom.pages.dev/?github=sh619/Songyu_Huang-Chisel/main/MU0_final_version/simulation/qsim/CPU_Design.msim.vcd
 
 #### QUARTUS_VCD_EXPORT
@@ -115,4 +112,4 @@ https://vcdrom.pages.dev/?github=wavedrom/vcd-samples/trunk/swerv1.vcd&gist=drom
 
 https://vcdrom.pages.dev/?github=dpretet/vcd/master/test4.vcd&github=wavedrom/vcd-samples/trunk/wave1.waveql
 
-https://vcdrom.pages.dev/?github=wavedrom/vcd-samples/trunk/swerv1.vcd&github=wavedrom/vcd-samples/trunk/swerv_ifu_axi.waveql
+https://vcdrom.pages.dev/?github=wavedrom/vcd-samples/trunk/swerv1.vcd&github=wavedrom/vcd-samples/trunk/swerv_ifu_axi_2.waveql
