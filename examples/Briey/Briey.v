@@ -2,7 +2,7 @@
 // Component : Briey
 // Git hash  : 7b6ca65f4dae32d932cec9f5f3810a98d52a739f
 
-`timescale 1ns/1ps
+`timescale 1ns/1ns
 
 module Briey (
   input  wire          io_asyncReset,

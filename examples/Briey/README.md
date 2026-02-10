@@ -2,7 +2,7 @@
 
 Click the link below to open demo in VCDrom Online >>>
 
-https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/examples/Briey/dump1.vcd&github=wavedrom/vcd-samples/trunk/examples/Briey/dump.waveql&github=wavedrom/vcd-samples/trunk/examples/Briey/demo.lst
+https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/examples/Briey/dump1.vcd.br&github=wavedrom/vcd-samples/trunk/examples/Briey/dump.waveql&github=wavedrom/vcd-samples/trunk/examples/Briey/demo.lst
 
 3 files needed for Pipeline View:
 * `.vcd` - of simulation dump with pipeline probes
@@ -107,10 +107,23 @@ Command to build CPU:
 sbt "runMain vexriscv.demo.BrieyWithMemoryInit"
 ```
 
+
+Create named pipe for the vcd dump:
+
+```bash
+mkfifo dump1.vcd
+```
+
+Connect Brotli compressor to the named pipe:
+
+```bash
+brotli -q 9 < dump1.vcd > dump1.vcd.br
+```
+
 Command to run simulation:
 
 ```bash
-iverilog -g2005-sv -o sim Briey.v tb.sv && vvp sim +duration=1000 +vcdname=dump1.vcd
+iverilog -g2005-sv -o sim Briey.v tb.sv && vvp sim +duration=100000 +vcdname=dump1.vcd
 ```
 
 ## Understanding WaveQL file

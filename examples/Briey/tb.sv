@@ -14,7 +14,7 @@ module tb;
   end
 
   reg clock = 1;
-  always #1 clock = !clock;
+  always #2 clock = !clock; // 250MHz
 
   Briey u0 (
     .io_coreInterrupt(1'b0),
