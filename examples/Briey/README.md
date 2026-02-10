@@ -4,7 +4,6 @@ Click the link below to open demo in VCDrom Online >>>
 
 https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/examples/Briey/dump1.vcd&github=wavedrom/vcd-samples/trunk/examples/Briey/dump.waveql&github=wavedrom/vcd-samples/trunk/examples/Briey/demo.lst
 
-
 3 files needed for Pipeline View:
 * `.vcd` - of simulation dump with pipeline probes
 * `.waveql` - Waveform Query (signal list) file with correct DIZ RegExp
@@ -120,24 +119,19 @@ First we enter `tb` testbench level
 
 ![](assets/scr1.png)
 
-Next we select `clock` signal at current hierarchical level and put `:clock` label on it.
+Next we select `clock` signal at current hierarchical level.
 
 ![](assets/scr2.png)
 
-Then we go two instances down into VexRiscv processor core `u0` `axi_core_cpu`
+Then we give a symbolic label to a current signal `:clock`.
 
 ![](assets/scr3.png)
 
-Next we call function `DIZ` with a regular expression `(?<id>\w\w)_((?<go>go)|(?<pc>pc))`
-This function matches `pc` / `go` signal pairs out of signals you have at this level.
+Next we call use "RegExp" with "pipe/pc/go" pattern to select set of signals.
+All matches will be grouped into pairs pf `pc` / `go` signal with unique `pipe` name.
 
 ![](assets/scr4.png)
 
-Below you will see all pipeline stage bricks that was found in this time frame and associated listing lines. Names of pipeline bricks are UpperCase `id`s from your signal names. Colors picked randomly.
+Below you will see all pipeline stage bricks that was found in this time frame and associated listing lines. Names of pipeline bricks are UpperCase `pipe`s from your signal names. Colors picked randomly.
 
 ![](assets/scr6.png)
-
-After several empty lines there will be a closing `)` parenthesis.
-Marking the space allocated to pipeline view.
-
-![](assets/scr7.png)

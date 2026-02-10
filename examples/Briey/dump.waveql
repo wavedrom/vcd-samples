@@ -1,5 +1,5 @@
 tb clock :clock
-(DIZ (?<id>\w\w)_((?<go>go)|(?<pc>pc))
+/(?<pipe>\w\w)_((?<go>go)|(?<pc>pc))/
 
 
 
@@ -33,10 +33,9 @@ tb clock :clock
 
 
 
-)
+
 
 u0 axi_core_cpu
-
 /iBus_cmd_((?<valid>valid)|(?<ready>ready)|)/
 
 
@@ -60,7 +59,6 @@ u0 axi_core_cpu
 
 
 /dBus_rsp_((?<valid>valid)|)/
-
 
 
 
