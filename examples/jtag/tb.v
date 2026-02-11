@@ -6,7 +6,7 @@ module tb;
      $dumpfile("jtag.vcd");
      $dumpvars(0, tb);
      # 3 treset = 0;
-     # 64 $finish;
+     # 1000 $finish;
   end
 
   reg [31:0] seed = 12;

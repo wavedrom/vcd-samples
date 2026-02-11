@@ -209,7 +209,7 @@ always @(*)
     J_pauseIR        : J_state_ascii = "pauseIR       ";
     J_exit2IR        : J_state_ascii = "exit2IR       ";
     J_updateIR       : J_state_ascii = "updateIR      ";
-    default            : J_state_ascii = "%Error        ";
+    default          : J_state_ascii = "%Error        ";
   endcase
 
 // ***** END OF AUTOMATICALLY GENERATED TEXT, DO NOT EDIT *****

@@ -4,5 +4,5 @@ tms
 treset
 jtagState
 u0
-J_state_ascii %a
+J_state_ascii %c
 
