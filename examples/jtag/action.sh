@@ -17,8 +17,11 @@ if [[ "$GITHUB_EVENT_NAME" == "push" || "$GITHUB_EVENT_NAME" == "workflow_dispat
   git config --local user.email "github-actions[bot]@users.noreply.github.com"
   git config --local user.name "github-actions[bot]"
   git add jtag.vcd
-  git diff --staged --quiet || git commit -m "Update JTAG VCD from simulation [skip ci]"
-  git push
+  if ! git diff --staged --quiet; then
+    git commit -m "Update JTAG VCD from simulation [skip ci]"
+    git pull --rebase
+    git push
+  fi
 fi
 
 # Add summary
