@@ -4,12 +4,15 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
-# Install Icarus Verilog and Brotli
-sudo apt-get update
-sudo apt-get install -y iverilog brotli
+# Install dependencies (only in GitHub Actions)
+if [[ -n "$GITHUB_ACTIONS" ]]; then
+  sudo apt-get update
+  sudo apt-get install -y iverilog brotli
+fi
 
 # Run simulation
 iverilog -g2005-sv -o sim Briey.v tb.sv
+rm -f dump1.vcd
 mkfifo dump1.vcd
 brotli -q 9 < dump1.vcd > dump1.vcd.br &
 vvp sim +duration=100000 +vcdname=dump1.vcd
@@ -17,7 +20,7 @@ vvp sim +duration=100000 +vcdname=dump1.vcd
 # Wait for brotli to finish
 wait
 
-# Commit compressed VCD file (only on push or workflow_dispatch)
+# GitHub Actions: commit and push
 if [[ "$GITHUB_EVENT_NAME" == "push" || "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
   git config --local user.email "github-actions[bot]@users.noreply.github.com"
   git config --local user.name "github-actions[bot]"
@@ -29,7 +32,7 @@ if [[ "$GITHUB_EVENT_NAME" == "push" || "$GITHUB_EVENT_NAME" == "workflow_dispat
   fi
 fi
 
-# Add summary
+# GitHub Actions: add summary
 if [[ -n "$GITHUB_STEP_SUMMARY" ]]; then
   cat >> "$GITHUB_STEP_SUMMARY" <<EOF
 ## Briey Pipeline Simulation Results

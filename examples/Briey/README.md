@@ -108,6 +108,14 @@ sbt "runMain vexriscv.demo.BrieyWithMemoryInit"
 ```
 
 
+### Run Simulation
+
+```bash
+./action.sh
+```
+
+Or manually:
+
 Create named pipe for the vcd dump:
 
 ```bash

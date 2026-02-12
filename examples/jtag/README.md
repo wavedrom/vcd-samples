@@ -1,4 +1,12 @@
-JTAG FSM
+# JTAG FSM
+
+## Run Simulation
+
+```bash
+./action.sh
+```
+
+Or manually:
 
 ```bash
 iverilog -o sim jtag.v tb.v && vvp sim

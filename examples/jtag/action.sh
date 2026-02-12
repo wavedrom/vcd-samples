@@ -4,15 +4,17 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
-# Install Icarus Verilog
-sudo apt-get update
-sudo apt-get install -y iverilog
+# Install dependencies (only in GitHub Actions)
+if [[ -n "$GITHUB_ACTIONS" ]]; then
+  sudo apt-get update
+  sudo apt-get install -y iverilog
+fi
 
 # Run simulation
 iverilog -o sim jtag.v tb.v
 vvp sim
 
-# Commit VCD file (only on push or workflow_dispatch)
+# GitHub Actions: commit and push
 if [[ "$GITHUB_EVENT_NAME" == "push" || "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
   git config --local user.email "github-actions[bot]@users.noreply.github.com"
   git config --local user.name "github-actions[bot]"
@@ -24,7 +26,7 @@ if [[ "$GITHUB_EVENT_NAME" == "push" || "$GITHUB_EVENT_NAME" == "workflow_dispat
   fi
 fi
 
-# Add summary
+# GitHub Actions: add summary
 if [[ -n "$GITHUB_STEP_SUMMARY" ]]; then
   cat >> "$GITHUB_STEP_SUMMARY" <<EOF
 ## JTAG Simulation Results
