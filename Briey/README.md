@@ -2,7 +2,7 @@
 
 Click the link below to open demo in VCDrom Online >>>
 
-https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/examples/Briey/dump1.vcd.br&github=wavedrom/vcd-samples/trunk/examples/Briey/dump.waveql&github=wavedrom/vcd-samples/trunk/examples/Briey/demo.lst
+https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/Briey/dump1.vcd.br&github=wavedrom/vcd-samples/trunk/Briey/dump.waveql&github=wavedrom/vcd-samples/trunk/Briey/demo.lst
 
 3 files needed for Pipeline View:
 * `.vcd` - of simulation dump with pipeline probes
@@ -11,7 +11,7 @@ https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/examples/Briey/dump1.vc
 
 ### Inserting Pipeline Probes into Verilog
 
-https://github.com/wavedrom/vcd-samples/blob/trunk/examples/Briey/tb.sv#L26
+https://github.com/wavedrom/vcd-samples/blob/trunk/Briey/tb.sv#L26
 
 A pair of signals per pipeline stage:
 * `<STAGE>_pc` - PC of instruction executed by the stage

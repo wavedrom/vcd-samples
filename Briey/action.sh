@@ -41,7 +41,7 @@ if [[ -n "$GITHUB_STEP_SUMMARY" ]]; then
 
 ### View Waveform
 
-[View Briey Pipeline](https://wavedrom.live/?github=${GITHUB_REPOSITORY}/trunk/examples/Briey/dump1.vcd.br&github=${GITHUB_REPOSITORY}/trunk/examples/Briey/dump.waveql&github=${GITHUB_REPOSITORY}/trunk/examples/Briey/demo.lst)
+[View Briey Pipeline](https://wavedrom.live/?github=${GITHUB_REPOSITORY}/trunk/Briey/dump1.vcd.br&github=${GITHUB_REPOSITORY}/trunk/Briey/dump.waveql&github=${GITHUB_REPOSITORY}/trunk/Briey/demo.lst)
 
 EOF
 fi

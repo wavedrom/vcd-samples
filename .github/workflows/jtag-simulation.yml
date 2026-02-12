@@ -3,13 +3,13 @@ name: JTAG Simulation
 on:
   push:
     paths:
-      - 'examples/jtag/*.v'
-      - 'examples/jtag/action.sh'
+      - 'jtag/*.v'
+      - 'jtag/action.sh'
       - '.github/workflows/jtag-simulation.yml'
   pull_request:
     paths:
-      - 'examples/jtag/*.v'
-      - 'examples/jtag/action.sh'
+      - 'jtag/*.v'
+      - 'jtag/action.sh'
       - '.github/workflows/jtag-simulation.yml'
   workflow_dispatch:
 
@@ -25,4 +25,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run JTAG simulation
-        run: bash examples/jtag/action.sh
+        run: bash jtag/action.sh

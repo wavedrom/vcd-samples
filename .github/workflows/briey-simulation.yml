@@ -3,17 +3,17 @@ name: Briey Simulation
 on:
   push:
     paths:
-      - 'examples/Briey/*.v'
-      - 'examples/Briey/*.sv'
-      - 'examples/Briey/*.bin'
-      - 'examples/Briey/action.sh'
+      - 'Briey/*.v'
+      - 'Briey/*.sv'
+      - 'Briey/*.bin'
+      - 'Briey/action.sh'
       - '.github/workflows/briey-simulation.yml'
   pull_request:
     paths:
-      - 'examples/Briey/*.v'
-      - 'examples/Briey/*.sv'
-      - 'examples/Briey/*.bin'
-      - 'examples/Briey/action.sh'
+      - 'Briey/*.v'
+      - 'Briey/*.sv'
+      - 'Briey/*.bin'
+      - 'Briey/action.sh'
       - '.github/workflows/briey-simulation.yml'
   workflow_dispatch:
 
@@ -29,5 +29,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Briey simulation
-        run: bash examples/Briey/action.sh
+        run: bash Briey/action.sh
 

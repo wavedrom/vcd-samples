@@ -35,11 +35,11 @@ if [[ -n "$GITHUB_STEP_SUMMARY" ]]; then
 
 ### Raw VCD URL
 \`\`\`
-https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/examples/jtag/jtag.vcd
+https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/jtag/jtag.vcd
 \`\`\`
 
 ### View Waveform
-[View JTAG Waveform](https://wavedrom.live/?github=${GITHUB_REPOSITORY}/trunk/examples/jtag/jtag.vcd&github=${GITHUB_REPOSITORY}/trunk/examples/jtag/jtag.waveql)
+[View JTAG Waveform](https://wavedrom.live/?github=${GITHUB_REPOSITORY}/trunk/jtag/jtag.vcd&github=${GITHUB_REPOSITORY}/trunk/jtag/jtag.waveql)
 EOF
 fi
 
