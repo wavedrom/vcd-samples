@@ -12,7 +12,7 @@ View VCD file in the browser
 * https://wavedrom.live/?github=wanderingnail/AXI_DMA/refs/heads/master/build/DMAC.vcd
 
 #### Verilator
-* https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/swerv1.vcd
+* https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/swerv/swerv1.vcd
 * https://wavedrom.live/?github=bigBrain1901/nPOWER-ISA-5-STAGE-PIPELINED-CPU/master/post_compile_files/vlt_dump.vcd
 
 #### GHDL
@@ -95,7 +95,7 @@ https://wavedrom.live/?bitbucket=alex_drom/vcd-samples/raw/36cf049c82f70f8224968
 
 `https://wavedrom.live/?gitlab=<user>/<repo>/<brunch>/<filename>.vcd`
 
-https://wavedrom.live/?gitlab=drom/vcd-samples/raw/main/swerv1.vcd (Verilator)
+https://wavedrom.live/?gitlab=drom/vcd-samples/raw/main/swerv/swerv1.vcd (Verilator)
 
 ### Snippets
 
@@ -108,8 +108,8 @@ Second query source is an url of signal list file.
 
 `https://wavedrom.live/?<host>=<path>.vcd&<host>=<path>.waveql`
 
-https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/swerv1.vcd&gist=drom/a641b8321d3d4b6d07e1a3bde302bb34/raw/03833b83748dd1ae17f151c9808d82d37a089711/swerv_ifu_axi_2.waveql
+https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/swerv/swerv1.vcd&gist=drom/a641b8321d3d4b6d07e1a3bde302bb34/raw/03833b83748dd1ae17f151c9808d82d37a089711/swerv_ifu_axi_2.waveql
 
 https://wavedrom.live/?github=dpretet/vcd/master/test4.vcd&github=wavedrom/vcd-samples/trunk/wave1.waveql
 
-https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/swerv1.vcd&github=wavedrom/vcd-samples/trunk/swerv_ifu_axi_2.waveql
+https://wavedrom.live/?github=wavedrom/vcd-samples/trunk/swerv/swerv1.vcd&github=wavedrom/vcd-samples/trunk/swerv_ifu_axi_2.waveql
