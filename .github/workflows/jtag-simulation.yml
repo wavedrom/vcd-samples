@@ -1,0 +1,26 @@
+name: JTAG Simulation
+
+on:
+  push:
+    paths:
+      - 'examples/jtag/**'
+      - '.github/workflows/jtag-simulation.yml'
+  pull_request:
+    paths:
+      - 'examples/jtag/**'
+      - '.github/workflows/jtag-simulation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run JTAG simulation
+        run: bash examples/jtag/action.sh
