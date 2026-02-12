@@ -1,0 +1,42 @@
+#!/bin/bash
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
+
+# Install Icarus Verilog and Brotli
+sudo apt-get update
+sudo apt-get install -y iverilog brotli
+
+# Run simulation
+iverilog -g2005-sv -o sim Briey.v tb.sv
+mkfifo dump1.vcd
+brotli -q 9 < dump1.vcd > dump1.vcd.br &
+vvp sim +duration=100000 +vcdname=dump1.vcd
+
+# Wait for brotli to finish
+wait
+
+# Commit compressed VCD file (only on push or workflow_dispatch)
+if [[ "$GITHUB_EVENT_NAME" == "push" || "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+  git config --local user.email "github-actions[bot]@users.noreply.github.com"
+  git config --local user.name "github-actions[bot]"
+  git add dump1.vcd.br
+  git diff --staged --quiet || git commit -m "Update Briey VCD from simulation [skip ci]"
+  git push
+fi
+
+# Add summary
+if [[ -n "$GITHUB_STEP_SUMMARY" ]]; then
+  cat >> "$GITHUB_STEP_SUMMARY" <<EOF
+## Briey Pipeline Simulation Results
+
+✅ Simulation completed successfully!
+
+### View Waveform
+
+[View Briey Pipeline](https://wavedrom.live/?github=${GITHUB_REPOSITORY}/trunk/examples/Briey/dump1.vcd.br&github=${GITHUB_REPOSITORY}/trunk/examples/Briey/dump.waveql&github=${GITHUB_REPOSITORY}/trunk/examples/Briey/demo.lst)
+
+EOF
+fi
+

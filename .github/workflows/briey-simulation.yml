@@ -1,0 +1,33 @@
+name: Briey Simulation
+
+on:
+  push:
+    paths:
+      - 'examples/Briey/*.v'
+      - 'examples/Briey/*.sv'
+      - 'examples/Briey/*.bin'
+      - 'examples/Briey/action.sh'
+      - '.github/workflows/briey-simulation.yml'
+  pull_request:
+    paths:
+      - 'examples/Briey/*.v'
+      - 'examples/Briey/*.sv'
+      - 'examples/Briey/*.bin'
+      - 'examples/Briey/action.sh'
+      - '.github/workflows/briey-simulation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Briey simulation
+        run: bash examples/Briey/action.sh
+
