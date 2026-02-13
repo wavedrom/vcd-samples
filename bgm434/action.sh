@@ -21,7 +21,7 @@ iverilog -g2005-sv -o sim tb.sv \
 rm -f dump.vcd
 mkfifo dump.vcd
 brotli -q 9 < dump.vcd > dump.vcd.br &
-vvp sim +duration=100000 +vcdname=dump.vcd
+vvp sim
 
 # Wait for brotli to finish
 wait
