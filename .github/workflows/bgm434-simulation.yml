@@ -1,0 +1,31 @@
+name: bgm434 Simulation
+
+on:
+  push:
+    paths:
+      - 'bgm434/*.sv'
+      - 'bgm434/*.svh'
+      - 'bgm434/action.sh'
+      - '.github/workflows/bgm434-simulation.yml'
+  pull_request:
+    paths:
+      - 'bgm434/*.sv'
+      - 'bgm434/*.svh'
+      - 'bgm434/action.sh'
+      - '.github/workflows/bgm434-simulation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run bgm434 simulation
+        run: bash bgm434/action.sh
+
