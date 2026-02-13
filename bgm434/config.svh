@@ -1,7 +1,7 @@
 `ifndef CONFIG_SVH
 `define CONFIG_SVH
 
-`timescale 1 ns / 1 ns
+`timescale 1ns/1ns
 
 `ifdef ALTERA_RESERVED_QIS
     `default_nettype none
