@@ -1,5 +1,15 @@
 tb clock :clock
-/(?<pipe>\w\w)_((?<go>go)|(?<pc>pc))/
+/(?<flame>wb)_((?<go>go)|(?<pc>pc))/
+
+
+
+
+
+
+
+
+
+/(?<pipe>\w\w)_((?<go>go)|(?<pc>pc))/s
 
 
 
@@ -59,6 +69,7 @@ u0 axi_core_cpu
 
 
 /dBus_rsp_((?<valid>valid)|)/
+
 
 
 
